@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Welcome To Our Maintenance Page Please Fill Out The Information Below "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_campus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_text"
+        android:layout_marginTop="30dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="6dp"
+        android:text="Campus*"
+        android:textColor="#050505"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/spinner_campus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textView_campus"/>
+
+    <TextView
+        android:id="@+id/textView_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_campus"
+        android:layout_marginTop="30dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="6dp"
+        android:text="Block*"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textView_block"/>
+
+
+    <TextView
+        android:id="@+id/Textview_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_block"
+        android:layout_marginTop="20dp"
+        android:text="Please give a detailed description of the problem*:"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NameText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="109dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Submit"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_submit"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/back_1" />
+
+    <EditText
+        android:id="@+id/NameText"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:layout_below="@id/Textview_Text"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="245dp"
+        android:text="Upload Image" />
+
+    <ImageView
+        android:id="@+id/imgGallery"
+        android:layout_width="88dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="335dp"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+</RelativeLayout>
