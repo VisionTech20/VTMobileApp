@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/survey_question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Was the application easy to use?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <RadioGroup
+        android:id="@+id/color_options1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioButton
+        android:id="@+id/Yes_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes" />
+
+    <RadioButton
+        android:id="@+id/No_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No" />
+
+    <TextView
+        android:id="@+id/survey_question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Did you find the application difficult to understand?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <RadioGroup
+        android:id="@+id/color_options2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioButton
+        android:id="@+id/Yes_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes" />
+
+    <RadioButton
+        android:id="@+id/No_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No" />
+
+    <TextView
+        android:id="@+id/survey_question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Was submitting your complaint a simple process?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <RadioGroup
+        android:id="@+id/color_options3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioButton
+        android:id="@+id/Yes_option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes" />
+
+    <RadioButton
+        android:id="@+id/No_option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No" />
+
+    <TextView
+        android:id="@+id/survey_question4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Is there anything in the application that requires improvements?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <RadioGroup
+        android:id="@+id/color_options4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioButton
+        android:id="@+id/Yes_option4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes" />
+
+    <RadioButton
+        android:id="@+id/No_option4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If so what is it?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type Here">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="154dp"
+        android:layout_height="63dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Logout"
+        android:translationX="260dp"
+        android:translationY="3dp"
+        android:verticalScrollbarPosition="defaultPosition" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="156dp"
+        android:layout_height="58dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Back"
+        android:translationY="-60dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="131dp"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Home"
+        android:translationX="145dp"
+        android:translationY="-40dp" />
+</LinearLayout>

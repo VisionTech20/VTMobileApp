@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Beta2</string>
+
+    <string-array name="array_campus">
+        <item>Select the campus</item>
+        <item>Steve Biko</item>
+        <item>Ritson</item>
+        <item>Ml Sultan</item>
+
+    </string-array>
+
+    <string-array name="array_block">
+        <item>Select the block</item>
+    </string-array>
+
+    <string-array name="array_Steve_Biko_districts">
+        <item>Select the block </item>
+        <item>Block A1</item>
+        <item>Block A2</item>
+        <item>Block A3</item>
+        <item>Block A4</item>
+        <item>Block A5</item>
+        <item>Block A6</item>
+        <item>Block B</item>
+        <item>Block C</item>
+        <item>Block D1</item>
+        <item>Block D2</item>
+        <item>Block D3</item>
+        <item>Block D4</item>
+        <item>Block D5</item>
+        <item>Block E</item>
+        <item>Block F1</item>
+        <item>Block G1</item>
+        <item>Block G2</item>
+        <item>Block H</item>
+        <item>Block J</item>
+        <item>Block K</item>
+        <item>Block L</item>
+        <item>Block M</item>
+        <item>Block N</item>
+        <item>Block O</item>
+        <item>Block Q</item>
+        <item>Block P</item>
+        <item>Block S</item>
+        <item>Block R</item>
+    </string-array>
+
+    <string-array name="array_Ritson_districts">
+        <item>Select the block </item>
+        <item>Block A</item>
+        <item>Block B</item>
+        <item>Block C1</item>
+        <item>Block C3</item>
+        <item>Block D1</item>
+        <item>Block D2</item>
+        <item>Block D3</item>
+        <item>Block E1</item>
+        <item>Block E2</item>
+        <item>Block F</item>
+        <item>Block G1</item>
+        <item>Block G2</item>
+        <item>Block H1</item>
+        <item>Block H2</item>
+        <item>Block J</item>
+        <item>Block K</item>
+        <item>Block L</item>
+        <item>Block M</item>
+        <item>Block P</item>
+        <item>Block Q</item>
+        <item>Block R</item>
+    </string-array>
+
+    <string-array name="array_Ml_Sultan_districts">
+        <item>Select the block</item>
+        <item>Block A</item>
+        <item>Block B</item>
+        <item>Block C</item>
+        <item>Block D</item>
+        <item>Block E</item>
+        <item>Block F</item>
+        <item>Block G</item>
+        <item>Block H</item>
+        <item>Block I</item>
+        <item>Block J</item>
+        <item>Block K</item>
+        <item>Block L</item>
+        <item>Block M</item>
+    </string-array>
+</resources>
